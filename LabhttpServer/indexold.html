@@ -1,0 +1,71 @@
+<html>
+
+<head>
+	<title> Nattamon CPS </title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	<script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+	
+	<style>
+	
+		h2{
+			color:pink;
+		}
+		
+		.textred {
+			color:#E190D9;
+		}
+		
+		.textyl {
+			color:#F4F463;
+
+		}
+		
+		.blueborder{
+			border: 1px lightblue solid;
+		}
+	</style>
+	
+	<script>
+		var i = 0;
+		function changeName() {
+			
+			$("#cieh2").text("GG" + i);
+			
+			i++;
+		}
+			
+	
+	</script>
+</head>
+
+<body>
+
+   <h1 style="color:#8BECEE"> Nattamon Sridam  </h1>
+   <hr/>
+   <h2 id="cieh2" class="textred blueborder"> H2.1  </h2>
+   <h2 class="textyl"> H2.2  </h2>
+   <h2 onclick="changeName()"> **Click Me**  </h2>
+   <hr/>
+   <h3 onclick="myAlert();"> H3 </h3>
+   <h4> H4  </h4>
+   <h5> H5  </h5>
+   <img src="cat2.png" width="100px"/>
+   
+   
+   A <span> B </span> 
+   
+   <a target="_blank" href="https://www.youtube.com/watch?v=hY7m5jjJ9mM"> Youtube Funny Cat </a>
+   
+   <a target="_blank" href="https://www.youtube.com/watch?v=hY7m5jjJ9mM"> 
+		<img src="cat2.png" width="30%"/>
+
+   </a>
+   
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/hY7m5jjJ9mM" frameborder="0" allowfullscreen></iframe>
+   <script>
+		document.getElementById("cieh2").innerText="GG";
+	</script>
+</body>
+
+<html>
